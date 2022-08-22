@@ -10,4 +10,7 @@ Better accuracy in short-term forecasting is required for intermediate planning 
 1.) Minimum error 
 2.) Low bias and low variance trade off
 ![image](https://user-images.githubusercontent.com/101926069/185865677-0b103beb-9428-49b8-965f-9c1700608dac.png)
+![image](https://user-images.githubusercontent.com/101926069/185866026-c0ed5021-c01f-49a7-82e8-6df5d51cdc6c.png)
+![image](https://user-images.githubusercontent.com/101926069/185866083-737be3d8-1918-4190-bb6d-694dc3516a23.png)
+![image](https://user-images.githubusercontent.com/101926069/185866137-1640ce6c-fdc2-4b64-ad15-8af77b98cd18.png)
 
