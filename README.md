@@ -13,7 +13,7 @@ Better accuracy in short-term forecasting is required for intermediate planning 
 ![image](https://user-images.githubusercontent.com/101926069/185866026-c0ed5021-c01f-49a7-82e8-6df5d51cdc6c.png)
 ![image](https://user-images.githubusercontent.com/101926069/185866083-737be3d8-1918-4190-bb6d-694dc3516a23.png)
 ![image](https://user-images.githubusercontent.com/101926069/185866137-1640ce6c-fdc2-4b64-ad15-8af77b98cd18.png)
-OUTLIER DETECTION![image](https://user-images.githubusercontent.com/101926069/185866311-cd531270-a43b-48ba-8877-b16559a38e17.png)
+[image](https://user-images.githubusercontent.com/101926069/185866311-cd531270-a43b-48ba-8877-b16559a38e17.png)
 ![image](https://user-images.githubusercontent.com/101926069/185869996-f8c5445a-2033-4f22-b72c-19a15e07e16d.png) ![image](https://user-images.githubusercontent.com/101926069/185870059-4bf7f339-c31f-4336-aa11-4c75b9643437.png)
 ![image](https://user-images.githubusercontent.com/101926069/185870119-12b50c77-d2ad-4007-8482-d0f481dfddf4.png)
 Observation:
