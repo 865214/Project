@@ -43,6 +43,34 @@ Better accuracy in short-term forecasting is required for intermediate planning 
 ![image](https://user-images.githubusercontent.com/101926069/185875629-dccfb610-447c-42d6-b9c3-3f9fa9c3f4f9.png)
 # Observation: Our data shows positive linear autocorrelation with the previous lag values (previous months)
 
+# Time series decomposition plot
+![image](https://user-images.githubusercontent.com/101926069/185876228-d41ec5ee-e5eb-4823-93d4-044108ad2c3e.png)
+# Observation:-1.Observed - Actual data (2) Trend - Increasing trend. (3) Seasonal- Does not Varies with the mean 0.No seasonality found. (4) Residual - It is the noise pattern of the time series data for each year, which was not captured by the two components - Trend and Seasonality. Residual is the left over after decomposition of the two major components (Trend and Seasonality)
+
+# Feature Engineering:Feature Extraction
+## Feature Extraction for Visualization:
+![image](https://user-images.githubusercontent.com/101926069/185877586-a4f09c5e-cf14-4fb3-9ef4-dc8df4987933.png)
+## Data Pre-processing for Model Driven Techniques:
+![image](https://user-images.githubusercontent.com/101926069/185877761-691da6bb-62cd-4d82-8689-2c50d0df4da5.png)
+
+# Data visualization
+![image](https://user-images.githubusercontent.com/101926069/185878007-2785e068-ac52-43ef-a5ff-b6d16a399987.png)
+# Observation: As we can observe there is Weekly seasonality in our time series data analysis.Every 23rd week of every Year we can see a spike in CO2 emission in our time series. It does not have Quarterly or Monthly seasonality  through out the years. 
+![image](https://user-images.githubusercontent.com/101926069/185878271-69f51d94-06ec-4fe8-b0e9-bf3d368410cb.png)
+# Observation: In daily analysis of  𝐶𝑂2  emission we are getting a constant variation among all days throughout the Years.Hence, we can see there is no Daily seasonality or pattern in CO2 emission
+![image](https://user-images.githubusercontent.com/101926069/185878464-f75ceed8-1b13-485c-8cc5-de2b3aaef735.png)
+![image](https://user-images.githubusercontent.com/101926069/185878510-816d1e6f-18ee-441a-b2b1-12395d2f6573.png)
+![image](https://user-images.githubusercontent.com/101926069/185878590-b4bbe2ec-9f0d-4aa5-84df-b52059aa2077.png)
+
+# Splitting the data into train test split
+No random partition That’s because the order sequence of the time series should be intact in order to use it for forecasting.
+Leaving Test Data with 20 Years of Time Series.We are going to forecast for the last 20 years. that is from 1994 to 2014.
+![image](https://user-images.githubusercontent.com/101926069/185878963-69b8a03a-6cb4-4692-bdb6-a68787f73041.png)
+
+
+
+
+
 
 
 
