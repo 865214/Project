@@ -67,6 +67,61 @@ No random partition That’s because the order sequence of the time series shoul
 Leaving Test Data with 20 Years of Time Series.We are going to forecast for the last 20 years. that is from 1994 to 2014.
 ![image](https://user-images.githubusercontent.com/101926069/185878963-69b8a03a-6cb4-4692-bdb6-a68787f73041.png)
 
+# MODEL BUILDING on Resampled Data (Monthly Data):
+![image](https://user-images.githubusercontent.com/101926069/185879492-889cbf24-87a9-4d49-a876-707f719111ad.png)
+
+# Evaluation on Resampled Data (Monthly Data);
+![image](https://user-images.githubusercontent.com/101926069/185879682-57ead3ce-d0a0-4c71-ac82-9512ecc59178.png)
+![image](https://user-images.githubusercontent.com/101926069/185879757-b217a7bf-3951-4258-8375-eae94419feaf.png)
+
+# Forecasting on Test Resampled Data (Monthly Data) : Using Best Model
+![image](https://user-images.githubusercontent.com/101926069/185880002-0ab88bed-27b7-418a-a244-d419ce90e679.png)![image](https://user-images.githubusercontent.com/101926069/185880027-295d1d46-d825-49e2-b8fa-684d1e99f20a.png)
+
+# MODEL BUILDING on Raw Data(Yearly Data):
+![image](https://user-images.githubusercontent.com/101926069/185880383-8df1ed4a-84b5-49af-b7de-6989417c6990.png)
+
+# Forecasting on Test Data (Monthly Data
+![image](https://user-images.githubusercontent.com/101926069/185895052-2baa3f76-dced-48d4-a01f-701f99bf9807.png)
+
+# Comparing Scores
+Model building evaluation Score w.r.t RMSE and MAPE
+# Raw Data:
+![image](https://user-images.githubusercontent.com/101926069/185895455-18105c24-cf04-4345-9b84-7cf071313b5c.png)
+# Resampled Data:
+![image](https://user-images.githubusercontent.com/101926069/185895625-b7ab8269-5586-4648-a771-8a815adb434b.png)
+# FINAL SCORES
+ARIMA model performed well on Raw dataset
+![image](https://user-images.githubusercontent.com/101926069/185895805-f4e31f7e-4659-4e11-b27e-8f2c42089fa9.png)
+![image](https://user-images.githubusercontent.com/101926069/185895854-854abb72-ca6a-44f4-8ca3-95da0a7bbd25.png)
+
+# Evaluation of the ARIMA Model
+![image](https://user-images.githubusercontent.com/101926069/185896097-f835a74f-a40f-418d-888e-bbbbdc560368.png)
+![image](https://user-images.githubusercontent.com/101926069/185896178-6b15ad7f-0035-442e-bdda-8e99510823af.png)
+
+# Plotting Actual Values vs Forecasted Value
+![image](https://user-images.githubusercontent.com/101926069/185896423-149a520a-7381-467f-8322-ee056090dd29.png)
+
+# Forecasting for the Next 5 Years using the ARIMA Model
+![image](https://user-images.githubusercontent.com/101926069/185896610-3adfb142-078f-4486-a18e-e547cbc14659.png)
+![image](https://user-images.githubusercontent.com/101926069/185896679-324533a8-ccb8-4ec7-945b-451936830d7b.png)
+
+# Model Deployment
+![image](https://user-images.githubusercontent.com/101926069/185896938-d4ac7764-3852-4536-acfa-2f746972b709.png)![image](https://user-images.githubusercontent.com/101926069/185896975-2df7e85f-c515-411c-ad6a-30cdb41e7667.png)
+![image](https://user-images.githubusercontent.com/101926069/185897050-ae65d3b1-9fd1-4d1c-a414-d0732844c6cb.png)![image](https://user-images.githubusercontent.com/101926069/185897090-f0953ed8-4c37-46a9-a8d5-3a2bcb5e2436.png)
+
+# Problems faced
+The data is positively skewed, platykurtic which mean presence of Negative kurtosis and it doesn’t follow normal distribution N~(0,1)
+Solution – Quantile Transformation 
+The time series is not stationary 
+Solution -  First order differencing
+
+
+
+
+
+
+
+
 
 
 
